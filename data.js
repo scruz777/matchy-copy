@@ -84,8 +84,16 @@ console.log(animals.length);//4 animals in animals array
 //////////////////////////////////////////////////////////////////////
 // Step 7 - Making Friends ///////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-
-
+//I chose the data structure of an array because an array was built to hold things that pertain to one another, 
+//and a friend's list sounds like a good candidate for that 
+var friends = [];//initializing var friends to data type chosen previously (array)
+function getRandom(animals){//creating func getRandom that takes animals arr 
+return Math.floor(Math.random() * animals.length); //returns random index of the input array, using Math.random.
+}
+friends.push(animals[getRandom(animals)].name);
+console.log(friends);
+animals[0]['friends'] = friends;
+console.log(animals[0]);
 
 /**
  * Nice work! You're done Part 1. Pat yourself on the back and
