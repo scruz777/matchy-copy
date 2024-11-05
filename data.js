@@ -58,9 +58,29 @@ console.log(animal);//printing animal to check for accuracy
 // Step 6 - A Collection of Animals //////////////////////////////////
 //////////////////////////////////////////////////////////////////////
 var animals = [];//initializing var animals to an empty arr
-animals.push[animal];
+animals.push(animal);//.pushing animal object into aniamls array
+console.log(animals);//prints an array filled with the animal obj
+var duck = {
+  species: 'duck',
+  name: 'Jerome',
+  noises: ['quack', 'honk', 'sneeeze', 'woosh']
+};
+animals.push(duck);
+var animal2 = {
+  species: 'canine',
+  name: 'Bucko',
+  noises: ['bark', 'grrrrr', 'woof', 'pant']
+};
+animals.push(animal2);
+var animal3 = {
+  species: 'rodent',
+  name: 'Cheezy',
+  noises: ['squeak', 'sniff', 'pitter patter']
 
-
+};
+animals.push(animal3);
+console.log(animals);
+console.log(animals.length);//4 animals in animals array
 //////////////////////////////////////////////////////////////////////
 // Step 7 - Making Friends ///////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
