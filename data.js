@@ -31,16 +31,17 @@ console.log(noises); // Log the entire array to verify
 /////////////////////////////////////////////////////////////////////
 // Step 3 - Combining Step 1 and 2 ///////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-
-
+animal['noises'] = noises;// using bracket not to add noises arr to 'noises' key value 
+animal.noises.push('hiss');//adding another sound to end of array using method
+console.log(animal);//printing animal to check for accuracy
 
 /* *******************************************************************
  * Step 4 - Review
  *
  * 1. What are the different ways you can access properties on objects?
- *
+ * we can use .dot notation and bracket notoation to modify key value pairs of an object
  * 2. What are the different ways of accessing elements on arrays?
- *
+ * we can use different array methods such as .push, .unshift, etc depending on what you're try to do
  * *******************************************************************
  */
 
@@ -56,7 +57,8 @@ console.log(noises); // Log the entire array to verify
 //////////////////////////////////////////////////////////////////////
 // Step 6 - A Collection of Animals //////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-
+var animals = [];//initializing var animals to an empty arr
+animals.push[animal];
 
 
 //////////////////////////////////////////////////////////////////////
