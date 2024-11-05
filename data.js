@@ -11,17 +11,24 @@
 //////////////////////////////////////////////////////////////////////
 // Step 1 - Object Creation //////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
-
-
-
-
+var animal = {};//declaring var animal and initializing to an empty object
+animal.species = 'feline';//using .dot notation to add key species, value 'feline'
+animal[name] = 'CatNap';//using bracket not to add key name, value CatNap
+animal.noises = [];//using any notation to add key noises, value empty array
+console.log(animal);//printing to console to check for accuracy
 //////////////////////////////////////////////////////////////////////
 // Step 2 - Array Creation ///////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
+var noises = [];//delcaring var noises and assigning to empty array
+noises[0] = 'meow';//using bracket not to give noises a string representing a noise the animal would make 
+noises.push('purr');//using array method .push() to add another noises to end of array 
+noises.unshift('grrrr');//using .unshift() method to add another noise to the beginning of the array 
+noises.push('scratchy scratch');//using bracket not to add another noise to the end of array 
 
-
-
-//////////////////////////////////////////////////////////////////////
+console.log(noises.length); // Log the length of the array
+console.log(noises[noises.length - 1]); // Log the last element without hardcoding index
+console.log(noises); // Log the entire array to verify
+/////////////////////////////////////////////////////////////////////
 // Step 3 - Combining Step 1 and 2 ///////////////////////////////////
 //////////////////////////////////////////////////////////////////////
 
