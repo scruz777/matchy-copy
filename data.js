@@ -13,7 +13,7 @@
 //////////////////////////////////////////////////////////////////////
 var animal = {};//declaring var animal and initializing to an empty object
 animal.species = 'feline';//using .dot notation to add key species, value 'feline'
-animal[name] = 'CatNap';//using bracket not to add key name, value CatNap
+animal['name'] = 'CatNap';//using bracket not to add key name, value CatNap
 animal.noises = [];//using any notation to add key noises, value empty array
 console.log(animal);//printing to console to check for accuracy
 //////////////////////////////////////////////////////////////////////
